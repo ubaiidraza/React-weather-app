@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input{
+    padding: 5px;
+    width: 22rem;
+} 
+
+
+body {
+    background-image: url('https://t3.ftcdn.net/jpg/07/68/84/98/360_F_768849863_85v0xtsG29cL4CCwEIUDMpsfXple0lO1.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+
+
+
+    font-family: Arial, sans-serif;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.weather-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    
+
+}
+
+.weather-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.weather-icon {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #666;
+    margin: 0;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.size{
+    width:80px;
+}
+ @media (max-width:768px) {
+
+    
+.responsive{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+input{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+    
+ }
